@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer - KIDS Rare Hellas</title>
+    <meta name="description" content="Join KIDS Rare Hellas as a volunteer and help support children with rare diseases in Greece. Learn about our volunteer opportunities and how to apply.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="KIDS Rare Hellas Logo" class="logo-img">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="volunteer.html" class="active">Volunteer</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="volunteer-hero" class="hero bg-gradient">
+            <div class="container">
+                <h1 class="animate-fade-in-up">Volunteer with Us</h1>
+                <p class="animate-fade-in-up">Join our mission to support children with rare diseases in Greece</p>
+            </div>
+        </section>
+
+        <section id="volunteer-opportunities" class="py-2">
+            <div class="container">
+                <h2 class="section-title">Volunteer Opportunities</h2>
+                <div class="activities-grid">
+                    <div class="activity-item animate-fade-in-up">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Event Support</h3>
+                        <p>Help organize and run our awareness events and fundraisers.</p>
+                    </div>
+                    <div class="activity-item animate-fade-in-up">
+                        <i class="fas fa-user-md"></i>
+                        <h3>Medical Assistance</h3>
+                        <p>Medical professionals can offer their expertise at our clinics and workshops.</p>
+                    </div>
+                    <div class="activity-item animate-fade-in-up">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Education Programs</h3>
+                        <p>Assist in developing and delivering educational programs about rare diseases.</p>
+                    </div>
+                    <div class="activity-item animate-fade-in-up">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Technical Support</h3>
+                        <p>Help maintain our website and assist with digital communications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteer-form" class="py-2 bg-light-gray">
+            <div class="container">
+                <h2 class="section-title">Apply to Volunteer</h2>
+                <form class="form-container">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="area">Area of Interest</label>
+                        <select id="area" name="area" required>
+                            <option value="">Select an area</option>
+                            <option value="event">Event Support</option>
+                            <option value="medical">Medical Assistance</option>
+                            <option value="education">Education Programs</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Why do you want to volunteer?</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+            <div class="footer-bottom">
+                <p>&copy; 2024 KIDS Rare Hellas. All rights reserved.</p>
+                <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
